@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Abóbora — Horta do Terceirão</title>
+  <style>
+    :root {
+      --bg: #f6fff5;
+      --card: #ffffff;
+      --accent: #2f8f4e;
+      --muted: #6b6b6b;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, Segoe UI, Roboto, Arial, sans-serif;
+      background: linear-gradient(180deg, var(--bg), #eaf6ea);
+      color: #0b2b17;
+    }
+
+    header {
+      background: var(--accent);
+      color: white;
+      padding: 24px 16px;
+      text-align: center;
+    }
+
+    .wrap {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 16px;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 6px 18px rgba(10, 20, 10, 0.06);
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 24px;
+    }
+
+    h2 {
+      color: var(--accent);
+      margin-top: 24px;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .back-btn {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: opacity 0.2s;
+    }
+
+    .back-btn:hover {
+      opacity: 0.8;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin: 20px 0;
+    }
+
+    .info-box {
+      background: linear-gradient(180deg, #fbfff9, #f0fff4);
+      padding: 16px;
+      border-radius: 8px;
+      border: 1px solid rgba(47, 143, 78, 0.06);
+    }
+
+    .info-box h3 {
+      margin: 0 0 8px;
+      font-size: 16px;
+      color: var(--accent);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="wrap">
+      <h1>🎃 Abóbora</h1>
+      <div class="meta">Cucurbita spp.</div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="card">
+      <h2>Sobre a Abóbora</h2>
+      <p>A abóbora é uma planta rasteira ou trepadeira da família das cucurbitáceas, que produz frutos grandes e
+        nutritivos. Existem diversas variedades, desde abóboras pequenas até as gigantes. É uma hortaliça versátil na
+        culinária, podendo ser usada em pratos doces e salgados, além de suas flores e sementes também serem
+        comestíveis.</p>
+
+      <div class="info-grid">
+        <div class="info-box">
+          <h3>⏱️ Ciclo de cultivo</h3>
+          <p>90 a 120 dias</p>
+        </div>
+        <div class="info-box">
+          <h3>🌡️ Temperatura ideal</h3>
+          <p>20°C a 27°C</p>
+        </div>
+        <div class="info-box">
+          <h3>💧 Rega</h3>
+          <p>Regular, sem encharcar</p>
+        </div>
+        <div class="info-box">
+          <h3>☀️ Sol</h3>
+          <p>Pleno sol</p>
+        </div>
+      </div>
+
+      <h2>Como Plantar</h2>
+      <ul>
+        <li><strong>Solo:</strong> Prefere solos ricos em matéria orgânica, bem drenados e com pH entre 5,5 e 6,8.</li>
+        <li><strong>Espaço:</strong> Necessita de muito espaço! Deixe 2 a 3 metros entre plantas, pois seus ramos se
+          espalham bastante.</li>
+        <li><strong>Semeadura:</strong> Plante 2 a 3 sementes por cova, com 2 a 3 cm de profundidade. Após a
+          germinação, deixe apenas a muda mais vigorosa.</li>
+        <li><strong>Germinação:</strong> As sementes germinam em 7 a 14 dias.</li>
+        <li><strong>Época:</strong> Plante preferencialmente na primavera e verão, quando as temperaturas são mais
+          quentes.</li>
+      </ul>
+
+      <h2>Cuidados</h2>
+      <ul>
+        <li><strong>Rega:</strong> Regue regularmente, mantendo o solo úmido mas não encharcado. Evite molhar as folhas
+          para prevenir doenças fúngicas.</li>
+        <li><strong>Adubação:</strong> A abóbora é muito exigente em nutrientes. Aplique composto orgânico ou esterco
+          bem curtido antes do plantio e faça adubações de cobertura mensalmente.</li>
+        <li><strong>Condução:</strong> Direcione os ramos para evitar que invadam outras plantas. Pode-se tutorar em
+          cercas ou treliças para economizar espaço.</li>
+        <li><strong>Polinização:</strong> As flores masculinas e femininas aparecem em épocas diferentes. Se necessário,
+          faça polinização manual usando um pincel.</li>
+        <li><strong>Pragas:</strong> Fique atento a pulgões e brocas. Use métodos orgânicos de controle.</li>
+      </ul>
+
+      <h2>Colheita</h2>
+      <p>A colheita ocorre entre 90 a 120 dias após o plantio, dependendo da variedade. A abóbora está pronta quando a
+        casca está firme e não cede à pressão dos dedos, e o pedúnculo (caule que liga o fruto à planta) começa a secar
+        e rachar. Corte deixando um pedaço do pedúnculo no fruto. Após a colheita, deixe a abóbora secar ao sol por
+        alguns dias para melhorar a conservação.</p>
+
+      <h2>Variedades Comuns</h2>
+      <ul>
+        <li><strong>Abóbora moranga:</strong> Redonda e achatada, excelente para doces</li>
+        <li><strong>Abóbora cabotiá:</strong> Verde escura, muito saborosa e nutritiva</li>
+        <li><strong>Abóbora japonesa:</strong> Pequena, ideal para famílias pequenas</li>
+        <li><strong>Jerimum:</strong> Alongada, comum no Nordeste</li>
+        <li><strong>Abóbora italiana:</strong> Alongada e verde clara</li>
+      </ul>
+
+      <h2>Benefícios Nutricionais</h2>
+      <ul>
+        <li>Rica em betacaroteno (vitamina A), importante para a visão e pele</li>
+        <li>Fonte de vitaminas C, E e do complexo B</li>
+        <li>Contém fibras que auxiliam no funcionamento intestinal</li>
+        <li>Possui minerais como potássio, cálcio, fósforo e magnésio</li>
+        <li>As sementes são ricas em zinco e ômega-3</li>
+        <li>Baixa caloria, ideal para dietas de emagrecimento</li>
+        <li>Possui propriedades antioxidantes e anti-inflamatórias</li>
+      </ul>
+
+      <h2>Curiosidades</h2>
+      <ul>
+        <li>As flores de abóbora são comestíveis e muito apreciadas em diversas culinárias</li>
+        <li>As sementes podem ser torradas e consumidas como aperitivo nutritivo</li>
+        <li>A abóbora pode ser armazenada por vários meses em local fresco e seco</li>
+        <li>É originária das Américas e era cultivada há mais de 10 mil anos</li>
+      </ul>
+
+      <a href="index.html" class="back-btn">← Voltar para página principal</a>
+    </div>
+  </main>
+</body>
+
+</html>

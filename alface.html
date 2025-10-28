@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Alface — Horta do Terceirão</title>
+  <style>
+    :root {
+      --bg: #f6fff5;
+      --card: #ffffff;
+      --accent: #2f8f4e;
+      --muted: #6b6b6b;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, Segoe UI, Roboto, Arial, sans-serif;
+      background: linear-gradient(180deg, var(--bg), #eaf6ea);
+      color: #0b2b17;
+    }
+
+    header {
+      background: var(--accent);
+      color: white;
+      padding: 24px 16px;
+      text-align: center;
+    }
+
+    .wrap {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 16px;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 6px 18px rgba(10, 20, 10, 0.06);
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 24px;
+    }
+
+    h2 {
+      color: var(--accent);
+      margin-top: 24px;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .back-btn {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: opacity 0.2s;
+    }
+
+    .back-btn:hover {
+      opacity: 0.8;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin: 20px 0;
+    }
+
+    .info-box {
+      background: linear-gradient(180deg, #fbfff9, #f0fff4);
+      padding: 16px;
+      border-radius: 8px;
+      border: 1px solid rgba(47, 143, 78, 0.06);
+    }
+
+    .info-box h3 {
+      margin: 0 0 8px;
+      font-size: 16px;
+      color: var(--accent);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="wrap">
+      <h1>🥬 Alface</h1>
+      <div class="meta">Lactuca sativa</div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="card">
+      <h2>Sobre a Alface</h2>
+      <p>A alface é uma das hortaliças mais populares e cultivadas no mundo. De fácil cultivo e ciclo rápido, é a base
+        de inúmeras saladas e sanduíches. Existem diversas variedades com folhas lisas, crespa, roxa ou americana,
+        cada uma com suas características próprias de sabor e textura.</p>
+
+      <div class="info-grid">
+        <div class="info-box">
+          <h3>⏱️ Ciclo de cultivo</h3>
+          <p>50 a 80 dias</p>
+        </div>
+        <div class="info-box">
+          <h3>🌡️ Temperatura ideal</h3>
+          <p>10°C a 24°C</p>
+        </div>
+        <div class="info-box">
+          <h3>💧 Rega</h3>
+          <p>Frequente e leve</p>
+        </div>
+        <div class="info-box">
+          <h3>☀️ Sol</h3>
+          <p>Sol pleno a meia sombra</p>
+        </div>
+      </div>
+
+      <h2>Como Plantar</h2>
+      <ul>
+        <li><strong>Solo:</strong> Prefere solos leves, ricos em matéria orgânica, bem drenados e com pH entre 6,0 e
+          7,0.</li>
+        <li><strong>Semeadura:</strong> Pode ser feita em sementeiras ou diretamente no local definitivo. Sementes
+          pequenas devem ficar superficiais, com leve cobertura de terra.</li>
+        <li><strong>Transplante:</strong> Se iniciado em sementeiras, transplante quando as mudas tiverem 4 a 6 folhas
+          (cerca de 20 a 30 dias).</li>
+        <li><strong>Espaçamento:</strong> 25 a 30 cm entre plantas e 30 a 35 cm entre linhas.</li>
+        <li><strong>Germinação:</strong> Ocorre em 3 a 7 dias em condições ideais.</li>
+      </ul>
+
+      <h2>Cuidados</h2>
+      <ul>
+        <li><strong>Rega:</strong> Regue diariamente com pouca água, mantendo o solo sempre úmido mas nunca encharcado.
+          Evite molhar as folhas para prevenir doenças.</li>
+        <li><strong>Temperatura:</strong> Prefere clima ameno. Em temperaturas acima de 25°C pode "espigar"
+          (florescer precocemente) e ficar amarga.</li>
+        <li><strong>Sombreamento:</strong> Em regiões quentes, cultive em meia sombra ou use telas de sombreamento.</li>
+        <li><strong>Adubação:</strong> Use composto orgânico ou húmus de minhoca. A alface é exigente em nitrogênio.
+        </li>
+        <li><strong>Capina:</strong> Mantenha o canteiro livre de ervas daninhas, pois a alface não compete bem.</li>
+        <li><strong>Rotação:</strong> Não plante alface no mesmo local consecutivamente para evitar doenças.</li>
+      </ul>
+
+      <h2>Colheita</h2>
+      <p>A colheita geralmente ocorre entre 50 a 80 dias após o plantio, dependendo da variedade e condições climáticas.
+        A alface está pronta quando forma uma "cabeça" bem desenvolvida (no caso das variedades americana e repolhuda)
+        ou quando as folhas estão grandes e viçosas (variedades de folhas soltas). Colha pela manhã, cortando rente ao
+        solo com uma faca limpa.</p>
+
+      <h2>Variedades Populares</h2>
+      <ul>
+        <li><strong>Alface crespa:</strong> Folhas crespas e soltas, verde claro ou roxa. Muito popular no Brasil.</li>
+        <li><strong>Alface americana:</strong> Forma cabeça compacta e crocante, ideal para sanduíches.</li>
+        <li><strong>Alface lisa:</strong> Folhas lisas e macias, sabor suave.</li>
+        <li><strong>Alface roxa:</strong> Folhas roxas, rica em antocianinas (antioxidantes).</li>
+        <li><strong>Alface romana:</strong> Folhas alongadas e crocantes, base da tradicional salada Caesar.</li>
+      </ul>
+
+      <h2>Benefícios Nutricionais</h2>
+      <ul>
+        <li>Muito baixa em calorias, ideal para dietas de emagrecimento</li>
+        <li>Rica em fibras, auxiliando no funcionamento intestinal</li>
+        <li>Boa fonte de vitaminas A, C e K</li>
+        <li>Contém minerais como cálcio, ferro e potássio</li>
+        <li>Possui propriedades calmantes e relaxantes</li>
+        <li>Hidrata o organismo devido ao alto teor de água (cerca de 95%)</li>
+        <li>As variedades roxas são ricas em antioxidantes</li>
+      </ul>
+
+      <h2>Dicas Especiais</h2>
+      <ul>
+        <li>Plante pequenas quantidades a cada 2 semanas para ter colheita contínua</li>
+        <li>Colha pela manhã para ter folhas mais crocantes e saborosas</li>
+        <li>Consuma logo após a colheita para aproveitar melhor os nutrientes</li>
+        <li>As folhas externas podem ser colhidas progressivamente, permitindo que o centro continue crescendo</li>
+      </ul>
+
+      <a href="index.html" class="back-btn">← Voltar para página principal</a>
+    </div>
+  </main>
+</body>
+
+</html>
